@@ -2,7 +2,7 @@ import { CardContainer, CardImg } from "./Card.Styles";
 
 function Card({ id, img, name }) {
   return (
-    <CardContainer to={""}>
+    <CardContainer to={`/movies/${id}`}>
       <CardImg src={img} alt={name} />
     </CardContainer>
   );
